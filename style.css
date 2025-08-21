@@ -69,8 +69,12 @@ main {
     border: 4px silver ridge;
     padding: 8px;
     margin-top: 20px;
+    background: silver;
 }
 
 h2, h3 {
     margin: 0px;
+}
+.title {
+     text-align: center;
 }
