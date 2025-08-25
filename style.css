@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(89, 195, 126);
+    background-image: url(images/Istanbul.png);
+    background-size: cover;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: Arial, sans-serif;
@@ -12,7 +13,8 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(118, 234, 159);
+    background: rgb(67, 67, 67);
+    border-radius: 15px;
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -45,9 +47,10 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(67, 67, 67);
     display: flex;
     margin-top: 20px;
+    color: white;
 }
 
 .sidebar {
@@ -66,10 +69,10 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(0, 0, 0) ridge;
     padding: 8px;
     margin-top: 20px;
-    background: silver;
+    background: rgb(115, 115, 115);
 }
 
 h2, h3 {
