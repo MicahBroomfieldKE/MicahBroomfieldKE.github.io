@@ -1,0 +1,58 @@
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav {
+    background: rgb(66, 66, 66);
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+body {
+    background-image: url(images/Istanbul.png);
+    background-size: cover;
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
+}

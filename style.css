@@ -5,22 +5,19 @@ body {
     padding: 10px;
     font-family: Arial, sans-serif;
 }
-
+c 
+nav {
+    background: rgba(67, 67, 67, 0.7);
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 20px;
+}
 #all-contents {
     max-width: 800px;
     margin: auto;
 }
-
-/* navigation menu */
-nav {
-    background: rgb(67, 67, 67);
-    border-radius: 15px;
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
 h1 {
     display: flex;
     align-items: center;
@@ -47,10 +44,11 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(67, 67, 67);
+    background: rgba(67, 67, 67, 0.7);
     display: flex;
     margin-top: 20px;
     color: white;
+    border-radius: 15px;
 }
 
 .sidebar {
@@ -66,13 +64,12 @@ main {
     flex: 1;
     padding: 15px;
 }
-
-/* interests section styles */
 #interests {
     border: 4px rgb(0, 0, 0) ridge;
     padding: 8px;
     margin-top: 20px;
     background: rgb(115, 115, 115);
+    border-radius:15px;
 }
 
 h2, h3 {
