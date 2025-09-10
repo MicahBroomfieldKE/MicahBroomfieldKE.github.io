@@ -5,13 +5,12 @@ body {
     padding: 10px;
     font-family: Arial, sans-serif;
 }
-c 
 nav {
-    background: rgba(67, 67, 67, 0.7);
+    background: rgba(67, 67, 67, 0.5);
     border-radius: 15px;
     margin: auto;
     display: flex;
-    padding: 0px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 #all-contents {
